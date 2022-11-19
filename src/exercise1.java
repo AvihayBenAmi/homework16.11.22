@@ -22,10 +22,10 @@ public class exercise1 {
             sqrtroot=Math.sqrt(sqrtroot); //sqrt
             x1=(-(parameterB)+sqrtroot)/(2*parameterA); //calculation for x1 with +
             x2=(-(parameterB)-sqrtroot)/(2*parameterA); //calculation for x2 with -
-            if(x1!=x2){ //if the differentes, it been tow solutions.
-                System.out.println("There are two solutions to the quadratic equation: x1= "+x1+" x2= "+x2);}
-            else if (x1==x2) { // if they equals, it been one solution.
-                System.out.println("There is one solution to the quadratic equation: x1= "+x1);}
+                if(x1!=x2){ //if the differentes, it been tow solutions.
+                    System.out.println("There are two solutions to the quadratic equation: x1= "+x1+" x2= "+x2);}
+                    else if (x1==x2) { // if they equals, it been one solution.
+                    System.out.println("There is one solution to the quadratic equation: x1= "+x1);}
         }
         else{ // the summery under sqrt is negative, no solution for quadratic equation.
             System.out.println("There are no solutions to the quadratic equation");}
